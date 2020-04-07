@@ -202,7 +202,7 @@ document.addEventListener('keyup', function(event) {
     }  
 });
 
-allButtons.forEach(el => el.addEventListener('click', function(event) {
+allButtons.forEach(el => el.addEventListener('click', function() {
     TEXTAREA.focus();
     
     if (el.classList.contains('simple')) {
